@@ -4,8 +4,8 @@ import RemoveCircleOutlineIcon from '@mui/icons-material/RemoveCircleOutline';
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 interface Props {
   count: number;
-  onAdd: () => void;
-  onRemove: () => void;
+  onAdd?: () => void;
+  onRemove?: () => void;
 }
 
 export const ItemCounter: FC<Props> = () => {

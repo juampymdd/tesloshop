@@ -38,7 +38,7 @@ export const Navbar = () => {
         </IconButton>
         {/* TODO: flex */}
 
-        <NextLink href="/cart/empty" passHref legacyBehavior>
+        <NextLink href="/cart" passHref legacyBehavior>
           <Link display={'flex'} alignItems={'center'}>
             <IconButton>
               <Badge badgeContent={2} color="secondary">
